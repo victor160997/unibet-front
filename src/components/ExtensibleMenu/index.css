@@ -1,0 +1,50 @@
+.NavContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Adicione essa propriedade */
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonOpenClose {
+    width: max-content;
+    gap: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItensContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: max-content;
+    position: absolute;
+    top: 100%; /* Adicione essa propriedade */
+    left: 5; /* Adicione essa propriedade */
+    background-color: rgb(40, 40, 40);
+}
+
+.NavItem {
+    color: rgb(130, 130, 130);
+    cursor: pointer;
+    padding: 10px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.ProfilePhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
